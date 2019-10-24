@@ -1,0 +1,17 @@
+body{
+    background-color: #333; 
+}
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    margin: 0 auto;
+    position: relative;
+    top: 300px;
+    transition-duration: 2s;
+}
+.box:hover{
+    background-color: darkgoldenrod;
+    border-radius: 50%;
+    transform: rotateY(180deg) scale(2);
+}
